@@ -7,6 +7,6 @@ It is still heavily under development and I'm currently working on code more sui
     
     - Internal repository of all project related information, from application stage to details of grant, project updates,           challenges, and final report
     - Internal database of other OAD information: internal reports, admin documents, reference materials, other historical           records
-    - potential project leaders submit their proposals online
-    - the public can query the database via keywords (PI, project, region, taskforce, year etc)
+    - Potential project leaders submit their proposals online
+    - The public can query the database via keywords (PI, project, region, taskforce, year etc)
 This should streamline project management once sufficiently developed.
