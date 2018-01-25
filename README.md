@@ -7,3 +7,4 @@ It is still heavily under development and I'm currently working on code more sui
 
     - potential project leaders submit their proposals online
     - the public can query the database via keywords (PI, project, region, taskforce, year etc)
+This should streamline project management once sufficiently developed.
