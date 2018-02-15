@@ -62,8 +62,7 @@ Keywords <br>
 <!----------------------------------------------------------------------------->
 <?php
   //<!--Building a normal MySQL connection-->
-  $con = new PDO('mysql:host=localhost;dbname=BucketList',"root","melo8946");
-  //$con = new PDO('mysql:host=dbint.astro4dev.org;dbname=melosbdb',"melo","R@!nf0r3st");
+  $con = new PDO('mysql:host=dbint.astro4dev.org;dbname=melosbdb',"melo","R@!nf0r3st");
   $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 	//----------------------------------------------------------------------------
@@ -82,8 +81,8 @@ Keywords <br>
   //<!--Determine your query-->
 	$init_data = $_POST[$fieldInputs[$i]];
 
-  if ($j==5){$query = "SELECT * FROM OAD_DATA" ;}
-    elseif ($i<5){$query = "SELECT * FROM OAD_DATA WHERE $fieldSQL[$i]='$init_data'";}
+  if ($j==5){$query = "SELECT * FROM PastFundedProjects" ;}
+    elseif ($i<5){$query = "SELECT * FROM PastFundedProjects WHERE $fieldSQL[$i]='$init_data'";}
 
 
 
